@@ -66,7 +66,7 @@ export default function UserLogin() {
     clientId: '<YOUR_EXPO_GOOGLE_CLIENT_ID>',
     iosClientId: '<YOUR_IOS_CLIENT_ID>',
     androidClientId: '<YOUR_ANDROID_CLIENT_ID>',
-    webClientId: '<YOUR_WEB_CLIENT_ID>',// thiss is for only testing 
+    webClientId: '<YOUR_WEB_CLIENT_ID>',// this is for only testing 
   });
 
   useEffect(() => {
