@@ -25,7 +25,7 @@ import * as Google from 'expo-auth-session/providers/google';
 WebBrowser.maybeCompleteAuthSession();
 
 export default function UserLogin() {
-  const navigation = useNavigation(); // ✅ Step 2: Insert this INSIDE your component
+  const navigation = useNavigation();
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -43,7 +43,7 @@ export default function UserLogin() {
   const router = useRouter();
 
   const handleLogin = async () => {
-    router.push('/home'); // ✅ Step 3: Use router.push to navigate to the Home screen
+    router.push('/home'); 
     setLoading(true);
 
     setTimeout(async () => {
@@ -66,7 +66,7 @@ export default function UserLogin() {
     clientId: '<YOUR_EXPO_GOOGLE_CLIENT_ID>',
     iosClientId: '<YOUR_IOS_CLIENT_ID>',
     androidClientId: '<YOUR_ANDROID_CLIENT_ID>',
-    webClientId: '<YOUR_WEB_CLIENT_ID>', // only if testing in web
+    webClientId: '<YOUR_WEB_CLIENT_ID>',// thiss is for only testing 
   });
 
   useEffect(() => {
@@ -74,7 +74,7 @@ export default function UserLogin() {
       const { authentication } = response;
       if (authentication?.accessToken) {
         AsyncStorage.setItem('isLoggedIn', 'true');
-        router.replace('/home'); // navigate to home
+        router.replace('/home'); 
       }
     }
   }, [response]);
