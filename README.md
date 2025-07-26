@@ -42,4 +42,4 @@ Support dark mode
 Firebase login and cloud sync
 Thanks for being here 
 Hoping to collaborate with you
-can buy me a coffee
+can buy me a coffee / Tea
