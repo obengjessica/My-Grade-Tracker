@@ -40,3 +40,4 @@ Add support for storing multiple grades
 Export grades as PDF or CSV
 Support dark mode
 Firebase login and cloud sync
+Thanks for being here 
