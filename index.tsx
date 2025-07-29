@@ -5,6 +5,7 @@ import UserLogin from "./userLogin";
 import { LinearGradient } from 'expo-linear-gradient';
 import Home from './home';
 
+// This timing props
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useEffect, useState } from "react";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
